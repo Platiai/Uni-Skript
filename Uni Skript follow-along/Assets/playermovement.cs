@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 using UnityEngine;
+
 
 public class playermovement : MonoBehaviour
 {
@@ -40,4 +42,7 @@ public class playermovement : MonoBehaviour
       }
 
     }
+    void OnMouseDown() {
+  gameObject.transform.Rotate(new Vector3(0, 0, 45));
+  }
 }
