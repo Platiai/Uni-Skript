@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 
 public class playermovement : MonoBehaviour
@@ -42,7 +44,10 @@ public class playermovement : MonoBehaviour
       }
 
     }
-    void OnMouseDown() {
-  gameObject.transform.Rotate(new Vector3(0, 0, 45));
-  }
+    public void Rotate (InputAction.CallbackContext context) 
+    {
+      if (context.performed)
+      gameObject.transform.Rotate(new Vector3(0, 0, 30));
+  
 }
+ }

@@ -1,0 +1,34 @@
+{
+    "name": "Playerinputactions",
+    "maps": [
+        {
+            "name": "Playermovement",
+            "id": "93dfb35b-b46b-434b-b92e-1ba7d6223321",
+            "actions": [
+                {
+                    "name": "Rotate",
+                    "type": "Button",
+                    "id": "6b0988ac-2cc1-42f9-b75b-228fd2ef10e2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ca26ba3d-5b4f-4adf-be09-6f61696ef898",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
